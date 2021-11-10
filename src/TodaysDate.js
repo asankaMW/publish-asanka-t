@@ -1,6 +1,6 @@
 import React from "react";
 
-const TodaysDate = (props) => <div>{`Today's date is ${Date()}`}
+const TodaysDate = (props) => <div>{`Today's day and date is ${Date()}`}
 <h1>{props.value}</h1>
 </div>;
 
